@@ -1,0 +1,109 @@
+body
+{
+     background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 58%, rgba(252, 176, 69, 1) 100%);
+}
+
+header
+{
+    text-align: center;
+    border: 1px black solid;
+}
+
+section
+{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+}
+
+label
+{
+    display: block;
+    margin: 10px  
+  
+ 
+}
+
+   #farmm{
+      width: 10cm;
+      padding: 8px;
+   
+      border-radius: 15px;
+      box-sizing: border-box;
+      font-size: 14px;
+      background-color: beige;
+        } 
+
+.textarea{
+      width: 8cm;
+      padding: 8px;
+      border: 2px solid #332833;
+      /* border-radius: 15px; */
+      box-sizing: border-box ;
+      font-size: 14px;
+    }
+    
+    .buttoninput{
+      display: block;
+      margin: 20px auto 0;
+      padding: 8px 30px;
+      border: none;
+      border-radius: 10px;
+      background-color: gray;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+     .buttoninput:hover {
+      background-color: #555;
+    }
+
+
+
+
+    .table-container{
+        border: 2px black solid;
+    }
+
+
+    
+        .table-container {
+            max-height: 300px;
+            overflow-y: auto;
+            margin-top: 20px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+     table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid black;
+            text-align: center;
+        }
+
+        th {
+            background-color: beige;
+        }
+
+        .edit-btn {
+            background-color: orange;
+            border: none;
+            padding: 6px 10px;
+            cursor: pointer;
+        }
+        .delete-btn {
+            background-color: red;
+            border: none;
+            padding: 6px 10px;
+            color: white;
+            cursor: pointer;
+        }
