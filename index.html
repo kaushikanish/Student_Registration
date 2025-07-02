@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    
+    <header> 
+
+     <H1>Student Registration System</H1>
+
+    </header>
+
+    <section > 
+            <div id="farmm">
+        <form>
+            <label >Student Name :
+            <input type="text" id="stdnam" class="textarea" placeholder="Enter name">
+            </label>
+
+             <label >Student Id :
+            <input type="text" id="stdid" class="textarea" placeholder="Enter ID">
+            </label>
+
+               <label >Class :
+            <input type="text" id="cls" class="textarea" placeholder="Enter Class">
+            </label>
+            
+            <label >Roll No :
+            <input type="text" id="stdroll" class="textarea" placeholder="Enter Roll no"> 
+            </label>
+
+            <button type="submit" class="buttoninput">Add</button>
+
+        </form>
+   </div>
+
+</section >  
+
+ <div class="table-container">
+        <table id="studentTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>ID</th>
+                    <th>Class</th>
+                    <th>Roll no</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="tablebody"></tbody>
+        </table>
+    </div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
